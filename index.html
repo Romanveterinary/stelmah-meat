@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Свіжа свинина Хмельницький | Забійний цех ФОП Стельмах В.Д.</title>
+    <meta name="description" content="Сімейне забійне підприємство ФОП Стельмах В.Д. (с. Малиничі, Хмельницька обл.). Пропонуємо свіжі свинячі туші та субпродукти. Дотримання стандартів HACCP, власна доставка.">
+    <meta name="keywords" content="забійний цех Хмельницький, забій свиней, купити свинячу тушу, свіже м'ясо Малиничі, субпродукти, свинина Хмельницький, ХАССП, доставка м'яса">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <style>
+        #music-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #D32F2F;
+            color: white;
+            border: none;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        /* Стиль для нової плаваючої кнопки дзвінка */
+        .call-button-floating {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #28a745; /* Яскравий зелений */
+            color: white;
+            border-radius: 50%; /* Робить кнопку круглою */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: transform 0.2s ease-in-out;
+        }
+        .call-button-floating:hover {
+            transform: scale(1.1); /* Збільшення при наведенні */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#hero" class="nav-logo">ФОП Стельмах В.Д.</a>
+            <ul class="nav-menu">
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#products">Продукція</a></li>
+                <li><a href="#why-us">Чому ми</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header id="hero">
+        <div class="hero-content">
+            <h1>Свіжа свинина у Хмельницькому від ФОП Стельмах В.Д.</h1>
+            <p>Сила. Якість. Свіжість. На повній швидкості до вашого столу.</p>
+            <a href="#products" class="cta-button">Ознайомитись з продукцією</a>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="container">
+            <h2>Два Покоління. Одна Пристрасть.</h2>
+            <div class="about-content">
+                <img src="images/about-us.jpg" alt="Батько з сином">
+                <div class="about-text">
+                    <p>Ми – сімейне підприємство **ФОП Стельмах В.Д.**, де батько і син об'єднали свій досвід та енергію для створення зразкового забійного цеху. Батько, мудрість і опора нашого бізнесу, передає багаторічні знання та контролює кожен етап. Син, директор і рушійна сила, впроваджує сучасні технології та, як і в житті за кермом улюбленого Ford Mustang, обирає лише максимальну швидкість розвитку та бездоганну якість.</p>
+                    <p>Наша справа – це наша репутація, наше ім'я та наша гордість.</p>
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <div class="container">
+                <h2>Наша Продукція: Смак Подільської Землі</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="images/pork-carcass.jpg" alt="Свиняча туша">
+                        <h3>Свиняча туша</h3>
+                        <p>Ідеально оброблена, бездоганно чиста, готова для будь-яких кулінарних шедеврів.</p>
+                        <div class="price">Ціну уточнюйте в менеджера</div>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/pork-offal.jpg" alt="Свинні субпродукти">
+                        <h3>Субпродукти</h3>
+                        <p>Легені, печінка, серце, нирки – все найсвіжіше для традиційних та авторських страв.</p>
+                        <div class="price">Ціну уточнюйте в менеджера</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="why-us" class="container">
+            <h2>Чому Ми? Наші Переваги – Ваша Впевненість</h2>
+            <div class="features-grid">
+                 <div class="feature"><h3>Сучасне Обладнання</h3><p>Інвестували в європейські технології для гуманного та гігієнічного забою.</p></div>
+                 <div class="feature"><h3>Лише Подільський Регіон</h3><p>Підтримуємо місцевих фермерів і гарантуємо екологічність сировини.</p></div>
+                 <div class="feature"><h3>Бездоганна Чистота</h3><p>Суворо дотримуємось стандартів ХАССП (HACCP) та санітарних норм.</p></div>
+                 <div class="feature"><h3>Власна Доставка</h3><p>Доставляємо м'ясотуші спеціалізованим транспортом до вашого магазину.</p></div>
+            </div>
+        </section>
+        <section id="partnership">
+            <div class="container">
+                <h2>Надійний Партнер для Вашого Бізнесу</h2>
+                <p>Ми готові до співпраці з супермаркетами, магазинами та закладами.</p>
+                <a href="#contact" class="cta-button">Стати партнером</a>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="container">
+            <h2>Контакти</h2>
+            <p>Готові обговорити замовлення або співпрацю?</p>
+            <div class="contact-info">
+                <p><strong>Телефон:</strong> <a href="tel:+380977709168">+38 (097) 770 91 68</a></p>
+                <p><strong>Адреса:</strong> Україна, Хмельницька обл., с. Малиничі, траса Львів-Кіровоград-Знам'янка, 230 км.</p>
+            </div>
+            
+            <p class="copyright">© 2025, ФОП Стельмах В.Д. Всі права захищено.</p>
+        </div>
+    </footer>
+
+    <a href="tel:+380977709168" class="call-button-floating" aria-label="Зателефонувати зараз">
+        <i class="bi bi-telephone-fill"></i>
+    </a>
+
+    <audio id="backgroundMusic" loop>
+      <source src="https://files.catbox.moe/sipukj.mp3" type="audio/mpeg">
+    </audio>
+    <button id="music-button">
+        <i class="bi bi-play-fill"></i>
+    </button>
+    <script>
+        const music = document.getElementById('backgroundMusic');
+        const soundBtn = document.getElementById('music-button');
+        const playIcon = '<i class="bi bi-play-fill"></i>';
+        const pauseIcon = '<i class="bi bi-pause-fill"></i>';
+        soundBtn.addEventListener('click', () => {
+            if (music.paused) {
+                music.play().catch(e => console.error("Помилка відтворення аудіо:", e));
+                soundBtn.innerHTML = pauseIcon;
+            } else {
+                music.pause();
+                soundBtn.innerHTML = playIcon;
+            }
+        });
+        music.addEventListener('ended', () => {
+            soundBtn.innerHTML = playIcon;
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
